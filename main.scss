@@ -3,11 +3,11 @@
 
 // Include any default variable overrides here (though functions won't be available)
 
-@import "../node_modules/bootstrap/scss/bootstrap";
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
 
 // Then add additional custom code here
 
-$custom-color:  #fd7eff !default;
+$custom-color: #fd7eff !default;
 
 $custom-colors: (
   "custom-color": $custom-color
@@ -16,12 +16,10 @@ $custom-colors: (
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
 .custom-color {
-    color: $gray-100;
-    background-color: $custom-color;
-  }
+  color: $gray-100;
+  background-color: $custom-color;
+}
 
-
-
-  .p-6 {
-    padding: 6.28rem !important;
-  }
+.p-6 {
+  padding: 6.28rem !important;
+}
