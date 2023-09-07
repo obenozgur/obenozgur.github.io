@@ -11169,7 +11169,7 @@ textarea.form-control-lg {
     padding: 1.5rem !important;
   }
   .p-xl-5 {
-    padding: 6.28rem !important;
+    padding: 6.5rem !important;
   }
   .px-xl-0 {
     padding-right: 0 !important;
@@ -11978,4 +11978,8 @@ textarea.form-control-lg {
 
 .p-6 {
   padding: 6.28rem !important;
+}
+
+.w-65 {
+  width: 65% !important;
 }/*# sourceMappingURL=main.css.map */
