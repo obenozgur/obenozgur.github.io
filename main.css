@@ -11169,7 +11169,9 @@ textarea.form-control-lg {
     padding: 1.5rem !important;
   }
   .p-xl-5 {
-    padding: 6.5rem !important;
+    padding: 6rem !important;
+    padding-top: 3rem !important;
+    padding-right: 0rem !important;
   }
   .px-xl-0 {
     padding-right: 0 !important;
@@ -11216,8 +11218,10 @@ textarea.form-control-lg {
     padding-bottom: 1.5rem !important;
   }
   .py-xl-5 {
-    padding-top: 3rem !important;
-    padding-bottom: 3rem !important;
+    padding-top: 15rem !important;
+    padding-bottom: 15rem !important;
+    padding-left: 5rem !important;
+    padding-right: 5rem !important;
   }
   .pt-xl-0 {
     padding-top: 0 !important;
