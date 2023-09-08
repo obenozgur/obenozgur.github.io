@@ -11169,9 +11169,7 @@ textarea.form-control-lg {
     padding: 1.5rem !important;
   }
   .p-xl-5 {
-    padding: 6rem !important;
-    padding-top: 3rem !important;
-    padding-right: 0rem !important;
+    padding: 3rem !important;
   }
   .px-xl-0 {
     padding-right: 0 !important;
@@ -11218,10 +11216,8 @@ textarea.form-control-lg {
     padding-bottom: 1.5rem !important;
   }
   .py-xl-5 {
-    padding-top: 15rem !important;
-    padding-bottom: 15rem !important;
-    padding-left: 5rem !important;
-    padding-right: 5rem !important;
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
   }
   .pt-xl-0 {
     padding-top: 0 !important;
@@ -11986,4 +11982,20 @@ textarea.form-control-lg {
 
 .w-65 {
   width: 65% !important;
+}
+
+.bg-page-opaque {
+  --bs-page-rgb: 200, 202, 240;
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-page-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-page {
+  --bs-page-rgb: 200, 202, 240;
+  --bs-bg-opacity: 0.6;
+  background-color: rgba(var(--bs-page-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-gray {
+  background-color: rgba(234, 224, 224, 0.83) !important;
 }/*# sourceMappingURL=main.css.map */
